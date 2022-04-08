@@ -1,10 +1,10 @@
 fun main(){
     odd()
-    robots(4)
+    robots(5)
     robots(7)
-    robots(18)
     robots(30)
-    //num()
+    println(name(arrayOf("caroll","suzanie","betesi","dan")))
+    num()
 
 }
 // create a function that prints out all the odd numbers between 1 and 1oo.
@@ -31,19 +31,23 @@ fun robots(age:Int){
         println("A glass of milk")
     }
     else if(age>=6 && age<15){
-        println("A bottle of coca cola")
+        println("A bottle of fanta orange")
+    }
+    else{
+        println("bottle of coca cola")
     }
     fun num(){
         for(h in 1.. 100)
             if(h % 3==0 && h %5==0){
             println("Fiz Buzz")
             }else if(h %3==0){
-                println("Fiz")
+                println("Fizz")
             }else{
              if(h%5==0){
-                 println("Buz")
+                 println("Buzz")
 
              }
             }
     }
-}
+
+     }
